@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserComponent implements OnInit {
   name: string;
+  email:string;
   age: number;
   address: Address;
   hobbies: string[];
@@ -15,6 +16,7 @@ export class UserComponent implements OnInit {
 
   ngOnInit() {
     this.name = "John Doe";
+    this.email = 'john@gmail.com'
     this.age = 30;
     this.address = {
       street: "Main Street",
