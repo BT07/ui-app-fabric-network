@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { OrdererComponent } from './components/orderer/orderer.component';
 import { PeerComponent } from './components/peer/peer.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 const appRoutes: Routes = [
   { path: '', component: OrdererComponent },
@@ -15,7 +16,8 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     OrdererComponent,
-    PeerComponent
+    PeerComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
